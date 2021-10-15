@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reminder!</title>
+    <!--Icones-->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+    <!--SWIPER-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!--STYLES-->
+    <link rel="stylesheet" href="style.css" />
+    <!--FONTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a href="#" class="logo">Remind<span>.er!</span></a>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#etapa1">Etapa 1</a></li>
+            <li><a class="title" href="#etapa2">Etapa 2</a></li>
+            <li><a class="title" href="#etapa3">Etapa 3</a></li>
+            <li><a class="title" href="#etapa4">Etapa 4</a></li>
+            <li><a class="title" href="#etapa5">Design Thinking</a></li>
+          </ul>
+        </div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+    <main>
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1624969862293-b749659ccc4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+              alt="Relógio e Calendário sobre a mesa"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Coloque ordem na sua vida!</h2>
+            <p>
+              Agende horários para seus compromissos e receba notificações de
+              lembrete para eles!
+            </p>
+            <a href="#" class="button">Comece agora</a>
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+      <!--Etapa 1-->
+      <section class="section" id="etapa1">
+        <div class="container grid">
+          <div class="image">
+            <img src="assets/img/problemaSolucionar.png" alt="" />
+          </div>
+          <div class="text">
+            <h2 class="title">Etapa 1 - Empatia</h2>
+            <p>
+              A escolha do problema foi definida por meio de problemas de
+              memória por parte dos estudantes que tem uma vida muito agitada e
+              desorganizada.
+            </p>
+            <br />
+            <p>
+              Com o objetivo de minimizar o esquecimento da entrega de trabalhos
+              acadêmicos surge a ideia do remind.er. Um app que torna possível
+              agendar tarefas e notifica o usuário para que não esqueca de seu
+              compromisso.
+            </p>
+            <br />
+            <p>
+              Não houve pesquisa para definir as necessidades do usuário, as
+              necessidades foram definidas de acordo com o diálogo com outros
+              estudantes, que se veêm na situação complicada da organização e
+              administração de tempo.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="divider-2"></div>
+      <!-- SERVICES -->
+      <section class="section" id="etapa2">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Etapa 2 - Definição</h2>
+            <p class="subtitle">
+              O problema foi definido a partir da experiência própria em má
+              administração do tempo do criador do projeto e daqueles que
+              dialogaram no decorrer do desenvolvimento do problema. Dito isso
+              pode-se considerar que a má administração de tempo afeta muitas
+              pessoas.
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <h3 class="title">Persona Anny</h3>
+              <p>
+                Anny, aluna de sistemas, problema de memória em decorrencia da
+                vida corrida, super focada, acaba esquecendo o resto ao seu
+                redor, de São Domingos, pouco tempo vago e muita dificuldade com
+                organização
+              </p>
+              <img src="assets/img/anny.PNG" alt="" />
+              <p>
+                As possíveis soluções para a persona dela são: Alertas sonoros,
+                interface rapida de se utilizar, lembretes definidos por ela e
+                notificações recorrentes.
+              </p>
+            </div>
+            <div class="card">
+              <h3 class="title">Persona Leticia</h3>
+              <p>
+                Letícia, jovem, mora em Palmas no lagoão, bairro afastado de
+                tudo, tem dificuldade de lembrar dos trabalhos, anota em
+                cadernos porém esquece de olhar o caderno, faz os trabalhos e
+                esquece de entregar. Gasta tempo com músicas e séries. Pratica
+                atividade física.
+              </p>
+              <img src="assets/img/leticia.PNG" alt="" />
+              <p>
+                Notificações com tempo personalizado, classificar tipo de
+                lembrete conforme ícone, recebimento de notícias sobre assuntos
+                de seu interesse via API.
+              </p>
+            </div>
+            <div class="card">
+              <h3 class="title">Persona João</h3>
+              <p>
+                João, 35 anos, casado, Palmense, rapaz de meia idade curioso,
+                que detesta levantar cedo e deixa tudo pra ultima hora.
+                Trabalha, estuda e dorme em excesso. Necessita de um app de
+                lembretes pois é muito esquecido, talvez pela pressão do
+                casamento, sendo assim esquece até dos compromissos com a
+                família.
+              </p>
+              <img src="assets/img/joao.PNG" alt="" />
+              <p>
+                App versátil e fácil de usar, notificações com vibra-call, o app
+                deve ser gratuito e a monetização deve ser feita com anúncios
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+
+      <!-- etapa 3 -->
+      <section class="section" id="etapa3">
+        <div class="container">
+          <header>
+            <h2 class="title">Etapa 3 - Ideação</h2>
+          </header>
+          <div class="etapa3 swiper-container">
+            <div class="swiper-wrapper">
+              <div class="etapa3 swiper-slide">
+                <p class="title">Quais problemas vamos resolver?</p>
+                <blockquote>
+                  <p>
+                    O aplicativo vai auxiliar o usuário lembrar de suas
+                    atividades agendadas.
+                  </p>
+                </blockquote>
+              </div>
+              <div class="etapa3 swiper-slide">
+                <p class="title">Como vamos resolver esse problema?</p>
+                <blockquote>
+                  <p>
+                    O usuário poderá definir o lembrete e qual efeito sonoro
+                    tocará, além de contar com o recurso de vibra-call
+                  </p>
+                </blockquote>
+              </div>
+              <div class="etapa3 swiper-slide">
+                <p class="title">Quais o diferenciais?</p>
+                <blockquote>
+                  <p>
+                    A simplicidade da interface torna o aplicativo intuitivo e
+                    fácil de usar!
+                  </p>
+                </blockquote>
+              </div>
+              <div class="etapa3 swiper-slide">
+                <p class="title">Para quem é o produto?</p>
+                <blockquote>
+                  <p>
+                    Para toda e qualquer pessoa que deseja se tornar mais
+                    organizada
+                  </p>
+                </blockquote>
+              </div>
+              <div class="etapa3 swiper-slide">
+                <p class="title">Qual a proposta de valor?</p>
+                <blockquote>
+                  <p>
+                    Você poderá administrar melhor seu tempo e num mundo que
+                    corre contra o tempo cada segundo vale muito!
+                  </p>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <div class="divider-2"></div>
+      <section class="section" id="etapa4">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Etapa 4 e 5 - Prototipação e teste</h2>
+            <p>Confira agora mesmo o protótipo do Remind.er!</p>
+            <a
+              href="https://www.figma.com/file/cUqeKTxlHbOmwYE3tmlbao/app_lembretes?node-id=102%3A25"
+              class="button"
+              target="_blank"
+              >Conheça agora</a
+            >
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+      <!--Etapa 1-->
+      <section class="section" id="etapa5">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Processo de desing tink</h2>
+            <p>
+              O processo do desing thinking, teve seu início em uma folha de
+              papel, onde escrevi tudo que deveria apresentar em cada tela. O
+              desing simples pode facilitar a utilização pelo usuário e por meio
+              desse motivo decidi que o desing deveria ser intuitivo, para que o
+              usuário entendesse o que acontece em cada tela.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" href="#home">Remind<span>.der!</span></a>
+          <p>©2021 Remind.er!</p>
+          <p>Todos os direitos reservados</p>
+        </div>
+      </div>
+    </footer>
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
